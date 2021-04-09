@@ -23,3 +23,7 @@ test:
 production:
   <<: *default
   database: <%= ENV['DATABASE_URL'] %>
+
+# production:
+#   <<: *default
+#   database: <%= ENV['DATABASE_URL'] %>
